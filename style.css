@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    height: 100dvh;
+    width: 100dvw;
+    /* background-color: rgb(40, 40, 40); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+    position: relative;
+    gap: 30px;
+}
+.box{
+    height: 200px;
+    width: 400px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(60px);
+    -webkit-backdrop-filter: blur(60px);
+    border: 2px solid rgba(255, 255, 255, 0.09);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+    gap: 30px;
+}
+.timeBox{
+    height: 75%;
+    width:100px ;
+    border-radius: 20px;
+    background: rgba(152, 152, 152, 0);
+    border: 2px solid rgba(255, 255, 255, 0.09);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    font-weight: 600;
+}
+.box>span{
+    position: absolute;
+    font-size: 7rem;
+}
+.one{
+    top: 20px;
+    left: 118px;
+}
+.to{
+    top: 20px;
+    right: 118px;
+}
+.bx{
+    height: 200px;
+    width: 150px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(60px);
+    -webkit-backdrop-filter: blur(60px);
+    border: 2px solid rgba(255, 255, 255, 0.09);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.am{
+    height: 80%;
+    width:115px ;
+    border-radius: 20px;
+    background: rgba(152, 152, 152, 0);
+    border: 2px solid rgba(255, 255, 255, 0.09);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    font-weight: 600;
+}
